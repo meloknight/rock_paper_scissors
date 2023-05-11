@@ -1,1 +1,67 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+.display-container {
+    border: 2px solid black;
+    display: flex;
+    gap: 40px;
+}
+
+.displays {
+    border: 2px dashed black;
+    padding: 20px;
+}
+
+.choice-container {
+    border: 2px solid black;
+    display: flex;
+    gap: 40px;
+}
+
+.choices {
+    border: 2px dashed black;
+    padding: 20px;
+}
+
+.selection-container {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 20vh;
+    width: 80vw;
+    background-color: rgb(253, 209, 216);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.selection-container > button {
+    text-decoration: none;
+    border: none;
+    height: 100px;
+    width: 140px;
+    border-radius: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.selection-container > button:hover {
+    background-color: aqua;
+}
